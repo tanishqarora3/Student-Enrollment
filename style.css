@@ -1,0 +1,115 @@
+.v1 {
+    border-left: 4px solid #1bd6b7;
+    height: 300px;
+    margin-top: 60px;
+
+}
+
+.header{
+    color:white;
+    font-size: x-large;
+    padding:4px;
+    width: 100%;
+    font-weight: 500;
+    background-color: #1bd6b7;
+    text-align: center;
+    border: green 2px solid;
+}
+
+.input-form{
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+}
+
+h3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tg  {
+    border-collapse:collapse; 
+    border-spacing:0; 
+}
+		.tg td{
+            border-color:black;
+            border-style:solid;
+            border-width:1px;
+            font-family:Arial, sans-serif;
+            font-size:14px;
+		  overflow:hidden;
+          padding:10px 5px;
+          word-break:normal;
+        }
+        #desc{
+            width:200px;
+            color: #fff;
+            font-weight: bold;
+        }
+        #image{
+            width:100px;
+            color: #fff;
+            font-weight: bold;
+        }
+       
+        
+		.tg th{
+            width:200px;
+            border-color:black;
+            border-style:solid;
+            border-width:1px;
+            font-family:Arial, sans-serif;
+            font-size:14px;
+		  font-weight:normal;
+          overflow:hidden;
+          padding:10px 5px;
+          word-break:normal;
+          background-color: rgb(130, 216, 18);
+        }
+        tr:nth-child(odd) {
+            background-color: rgb(220, 241, 141);
+          }
+		.tg .tg-0lax{
+            text-align:left;
+            vertical-align:top
+        }
+
+.footer{
+    color:white;
+    background-color: #1bd6b7;
+    text-align: center;
+    border: green 2px solid;
+    margin-top: 20px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .vl{
+      display: none;
+    }
+    .flex-items{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .item{
+        
+        left: 0;
+        right: 0;
+    }
+  }
+  @keyframes fadein {
+      from{
+          opacity: 0;
+      }
+      to{
+          opacity: 100%;
+      }
+      
+  }
+  tr{
+      animation: 2s forwards fadein
+  }
